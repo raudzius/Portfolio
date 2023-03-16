@@ -14,5 +14,7 @@ module.exports = {
       { namedComponents: 'arrow-function', unnamedComponents: 'arrow-function' },
     ],
     'no-nested-ternary': [0],
+    'jsx-a11y/click-events-have-key-events': [0],
+    'jsx-a11y/no-noninteractive-element-interactions': [0],
   },
 };
