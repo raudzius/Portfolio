@@ -13,5 +13,6 @@ module.exports = {
       2,
       { namedComponents: 'arrow-function', unnamedComponents: 'arrow-function' },
     ],
+    'no-nested-ternary': [0],
   },
 };
