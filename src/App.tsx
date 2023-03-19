@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import About from './components/About';
+import Experience from './components/Experience';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
@@ -14,6 +15,7 @@ const App: React.FC = () => {
           <Hero />
         </div>
         <About />
+        <Experience />
       </div>
     </BrowserRouter>
   );
