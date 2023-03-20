@@ -64,7 +64,7 @@ const Experience: React.FC = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience) => (
-            <ExperienceCard key={experience.title} experience={experience} />
+            <ExperienceCard key={experience.company_name} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>

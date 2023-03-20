@@ -75,7 +75,7 @@ const Works: React.FC = () => (
     </div>
     <div className="mt-20 flex flex-wrap gap-7">
       {projects.map((project, index) => (
-        <ProjectCard index={index} project={project} />
+        <ProjectCard key={project.name} index={index} project={project} />
       ))}
     </div>
   </>
