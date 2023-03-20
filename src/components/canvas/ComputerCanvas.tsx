@@ -57,8 +57,7 @@ const ComputerCanvas: React.FC = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <React.Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
-        <OrbitControls enableZoom={false} minPolarAngle={Math.PI / 2} />
+        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
         <Computers isMobile={isMobile} />
       </React.Suspense>
       <Preload all />
