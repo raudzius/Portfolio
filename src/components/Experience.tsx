@@ -26,11 +26,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
     iconStyle={{ background: experience.iconBg }}
     icon={(
       <div className="flex justify-center items-center w-full h-full">
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="object-contain"
-        />
+        <img src={experience.icon} alt={experience.company_name} className="object-contain" />
       </div>
     )}
   >
@@ -53,23 +49,20 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-const Experience: React.FC = () => {
-  console.log('');
-  return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Experience.</h2>
-      </motion.div>
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience) => (
-            <ExperienceCard key={experience.company_name} experience={experience} />
-          ))}
-        </VerticalTimeline>
-      </div>
-    </>
-  );
-};
+const Experience: React.FC = () => (
+  <>
+    <motion.div variants={textVariant()}>
+      <p className={styles.sectionSubText}>What I have done so far</p>
+      <h2 className={styles.sectionHeadText}>Experience.</h2>
+    </motion.div>
+    <div className="mt-20 flex flex-col">
+      <VerticalTimeline>
+        {experiences.map((experience) => (
+          <ExperienceCard key={experience.company_name} experience={experience} />
+        ))}
+      </VerticalTimeline>
+    </div>
+  </>
+);
 
 export default SectionWrapper(Experience, 'experience');
