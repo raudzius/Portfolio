@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Tech from './components/Tech';
+import Works from './components/Works';
 
 const App: React.FC = () => {
   console.log('');
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <About />
         <Experience />
         <Tech />
+        <Works />
       </div>
     </BrowserRouter>
   );
