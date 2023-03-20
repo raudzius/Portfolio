@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Tech from './components/Tech';
 
 const App: React.FC = () => {
   console.log('');
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         </div>
         <About />
         <Experience />
+        <Tech />
       </div>
     </BrowserRouter>
   );
