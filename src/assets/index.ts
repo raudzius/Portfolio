@@ -27,9 +27,8 @@ import tesla from './company/tesla.png';
 import codeAcademy from './company/codeAcademy.png';
 import presentConnection from './company/presentConnection.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import mushroomStore from './mushroom-store.png';
+import worldWideWeb from './world-wide-web.png';
 
 export {
   logo,
@@ -43,6 +42,7 @@ export {
   docker,
   figma,
   git,
+  worldWideWeb,
   html,
   javascript,
   mongodb,
@@ -56,9 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  mushroomStore,
   presentConnection,
   codeAcademy,
 };
