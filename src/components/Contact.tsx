@@ -21,8 +21,8 @@ const Contact: React.FC = () => {
 
     emailjs
       .send(
-        'service_wpnkebm',
-        'template_s4tf40q',
+        'service_41i9y1c',
+        'template_7c3eigm',
         {
           from_name: form.name,
           to_name: 'Mykolas Raudžius',
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
           to_email: 'raudziusmykolas@gmail.com',
           message: form.message,
         },
-        'zOFleXINDrcA-RhwC',
+        'c0gU64n8TMI7nFRH3',
       )
       .then(
         () => {
