@@ -29,6 +29,7 @@ const Contact: React.FC = () => {
           from_email: form.email,
           to_email: 'raudziusmykolas@gmail.com',
           message: form.message,
+          'reply-to': form.email,
         },
         'c0gU64n8TMI7nFRH3',
       )
