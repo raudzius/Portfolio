@@ -123,12 +123,12 @@ const experiences = [
     date: 'Jun 2023 - Aug 2023',
     points: [
       'Basics of customer service',
-      'principles of information security',
+      'Principles of information security',
       "Live and remote IT support to the company's employees in Lithuania and in other countries",
       'Involved in the work of the international IT Support team in daily and long-term tasks',
       'Basic knowledge for working with Active Directory, Jira, Manage Engine Desktop Central.',
       'Installation of MAC OS and Windows OS environments',
-      'preparation of workplaces for new and existing ones employees.',
+      'Preparation of workplaces for new and existing ones employees.',
     ],
   },
 ];
