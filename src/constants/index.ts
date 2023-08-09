@@ -15,6 +15,7 @@ import {
   mushroomStore,
   presentConnection,
   codeAcademy,
+  bigBank,
 } from '../assets';
 
 export const navLinks = [
@@ -112,9 +113,22 @@ const experiences = [
     icon: presentConnection,
     iconBg: '#ffffff',
     date: 'Dec 2022 - Feb 2023',
+    points: ['React framework usage and useful features', 'C# server as REST full api'],
+  },
+  {
+    title: 'Intern',
+    company_name: 'BigBank',
+    icon: bigBank,
+    iconBg: '#ffffff',
+    date: 'Jun 2023 - Aug 2023',
     points: [
-      'React framework usage and useful features',
-      'C# server as REST full api',
+      'Basics of customer service',
+      'principles of information security',
+      "Live and remote IT support to the company's employees in Lithuania and in other countries",
+      'Involved in the work of the international IT Support team in daily and long-term tasks',
+      'Basic knowledge for working with Active Directory, Jira, Manage Engine Desktop Central.',
+      'Installation of MAC OS and Windows OS environments',
+      'preparation of workplaces for new and existing ones employees.',
     ],
   },
 ];

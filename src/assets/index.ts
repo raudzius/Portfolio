@@ -26,6 +26,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import codeAcademy from './company/codeAcademy.png';
 import presentConnection from './company/presentConnection.png';
+import bigBank from './company/bigbank.png';
 
 import mushroomStore from './mushroom-store.png';
 import worldWideWeb from './world-wide-web.png';
@@ -59,4 +60,5 @@ export {
   mushroomStore,
   presentConnection,
   codeAcademy,
+  bigBank,
 };
